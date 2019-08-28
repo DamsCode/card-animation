@@ -1,0 +1,25 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+#footer {
+    p {
+        display: inline;
+        margin: 10px;
+    }
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #ea4b3d;
+    border-radius: 50%;
+    display: inline-block;
+}
