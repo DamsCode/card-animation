@@ -1,19 +1,50 @@
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  display: block;
   max-width: 300px;
-  margin: auto; }
+  margin: auto;
+  -webkit-box-shadow: 0px 0px 48px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 48px 0px rgba(0, 0, 0, 0.75);
+}
+
+.card #flateblock {
+  display: block;
+  position: relative;
+  top: -40px;
+  background-color: white;
+}
+
+.card #flateblock p {
+  opacity: 0.0;
+}
+
+.card:hover #flateblock {
+  -webkit-transform: translateY(-200px);
+          transform: translateY(-200px);
+}
+
+.card:hover #flateblock p {
+  opacity: 1.0;
+}
 
 .title {
   color: grey;
-  font-size: 18px; }
+  font-size: 18px;
+}
 
 #footer p {
   display: inline;
-  margin: 10px; }
+  margin: 10px;
+}
 
 .dot {
-  height: 25px;
-  width: 25px;
+  color: white;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  position: relative;
   background-color: #ea4b3d;
   border-radius: 50%;
-  display: inline-block; }
+  display: inline-block;
+  top: -360px;
+  right: -240px;
+}
